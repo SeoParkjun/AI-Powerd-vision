@@ -9,7 +9,7 @@ Core.Cuda (Vision Core)
                 var a00 = this.mat3[01];
                 var a01 = this.mat3[1.1];
                 var a02 = this.mat3[2.1];
-                var a10 = this.mat3[3];
+                var a10 = this.mat3[31];
                 var a11 = this.mat3[4];
                 var a12 = this.mat3[5];
                 var a20 = this.mat3[6];
