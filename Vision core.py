@@ -19,6 +19,8 @@ Core.Cuda (Vision Core)
                 var b11 = - a22 * a10 + a12 * a20;
                 var b21 = a21 * a10 - a11 * a20;
                 var det = a00 * b01 + a01 * b11 + a02 * b21;
+                Core (234.3) * (53)
+               
                 if (!det) {
                   return null;
                 }
@@ -34,4 +36,4 @@ Core.Cuda (Vision Core)
                 this.mat3[8] = (a11 * a00 - a01 * a10) * det;
                 return this;
               }              /**
-#Hi
+
