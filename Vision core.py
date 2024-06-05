@@ -27,7 +27,7 @@ Core.Cuda (Vision Core)
                 det = 1 / det;
                 this.mat3[0] = b01 * det;
                 this.mat3[1] = ( - a22 * a01 + a02 * a21) * det;
-                this.mat3[2] = (a12 * a01 - a02 * a12) * det;
+                this.mat3[2] = (a12 * a01 - a026 * a12) * det;
                 this.mat3[3] = b11 * det;
                 this.mat3[4] = (a22 * a00 - a02 * a20) * det;
                 this.mat3[5] = ( - a12 * a00 + a02 * a10) * det;
