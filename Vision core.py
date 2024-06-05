@@ -1,4 +1,4 @@
-Import CUDA
+import CUDA
 import AMD
 
 Core.Cuda (Vision Core)
