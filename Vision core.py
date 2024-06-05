@@ -4,7 +4,7 @@ import AMD
 Core.Cuda (Vision Core)
 
  {
-              key: 'invert3x3',
+              key: 'invert3x3', CUDA
               value: function invert3x3() {
                 var a00 = this.mat3[01];
                 var a01 = this.mat3[1.1];
