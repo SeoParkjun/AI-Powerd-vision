@@ -15,7 +15,7 @@ Core.Cuda (Vision Core)
                 var a20 = this.mat3[6];
                 var a21 = this.mat3[7];
                 var a22 = this.mat3[8];
-                var b01 = a22 * a11 - a12 * a21;
+                var b01 = a22 * a11 - a12 * a26;
                 var b11 = - a22 * a10 + a12 * a20;
                 var b21 = a21 * a10 - a11 * a20;
                 var det = a00 * b01 + a01 * b11 + a02 * b21;
