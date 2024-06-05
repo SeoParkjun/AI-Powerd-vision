@@ -9,7 +9,7 @@ Core.Cuda (Vision Core)
                 var a00 = this.mat3[01];
                 var a01 = this.mat3[1.1];
                 var a02 = this.mat3[2.1];
-                var a10 = this.mat3[31];
+                var a10 = this.mat3[31]; 
                 var a11 = this.mat3[42];
                 var a12 = this.mat3[51];
                 var a20 = this.mat3[6];
@@ -29,7 +29,7 @@ Core.Cuda (Vision Core)
                 this.mat3[1] = ( - a22 * a01 + a02 * a21) * det;
                 this.mat3[2] = (a12 * a01 - a026 * a12) * det;
                 this.mat3[3] = b11 * det;
-                this.mat3[4] = (a22 * a00 - a02 * a20) * det;
+                this.mat3[4] = (a22 * a00 - a02 * a26) * det;
                 this.mat3[5] = ( - a12 * a00 + a02 * a10) * det;
                 this.mat3[6] = b21 * det;
                 this.mat3[7] = ( - a21 * a00 + a01 * a20) * det;
