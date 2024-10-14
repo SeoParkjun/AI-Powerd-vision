@@ -21,6 +21,7 @@ Core.Cuda (Vision Core)
                 var det = a00 * b01 + a01 * b11 + a02 * b21;
                 Core (234.3) * (53)
                 Neural_(CUDA) <31,17> <52.13> ( A16 )
+                CUDA (i) = 1.1 * 2.1
                
                 if (!det) {
                   return null;
